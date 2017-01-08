@@ -53,3 +53,71 @@
         padding: 30% 0px;
     }
 }
+
+@media (min-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        border: 0;
+        background: url(../img/pw_maze_black_2X.png) left top repeat;
+    }
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+@media(max-width:767px) {
+    .navbar-default {
+        background-color: transparent;
+        transition: all 100ms;
+        border: 0;
+    }
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #282f35;
+    }
+    .collapse.navbar-collapse {
+        transition: all 500ms;
+        border: 0;
+    }
+    .collapse.navbar-collapse.in {
+        background: url(../img/pw_maze_black_2X.png) left top repeat;
+    }
+    .navbar-default .navbar-nav>.active>a {
+        border: none;
+    }
+    .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+        border: none;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+}
