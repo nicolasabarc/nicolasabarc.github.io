@@ -120,4 +120,41 @@
     .navbar-default .navbar-toggle {
         border-color: transparent;
     }
+    i {
+        font-size: 5em !important;
+    }
+    h1 {
+        font-size: 30px !important;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    .service i {
+        font-size: 3em !important;
+    }
+    label {
+        font-size: 3em !important;
+    }
+}
+
+
+}
+@media(max-width:550px) {
+    label {
+        font-size: 20px !important;
+    }
+}
+@media(max-width:990px) {
+    label {
+        font-size: 4em !important;
+    }
+
+    i {
+        font-size: 7em !important;
+    }
+}
+@media(max-width:730px) {
+    label {
+        font-size: 2em !important;
+    }
 }

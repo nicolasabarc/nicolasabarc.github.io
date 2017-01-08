@@ -15,7 +15,8 @@ h1 {
 
 h2 {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 30px;
+    letter-spacing: 6px;
 }
 
 h3 {
@@ -27,7 +28,7 @@ h3 {
 
 h4 {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 20px;
     word-spacing: 2px;
 }
 
@@ -49,8 +50,8 @@ p {
 }
 
 hr {
-    width: 50px;
-    border-color: #c59a6d;
+    width: 30%;
+    border: 1px solid #c59a6d;
 }
 
 a {
@@ -135,25 +136,21 @@ a.down-btn span.fa.fa-angle-down {
 }
 
 .service {
-    border: 1px solid #222;
     margin-top: 20px;
     margin-bottom: 0px;
     transition: all 0.3s;
-    position: relative;
     padding: 60px 25px;
 }
 
 .service:hover>h4, .service:hover>span.fa {
     color: #c59a6d;
+    cursor: pointer;
 }
 
-.service:hover {
-    border-color: #c59a6d;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    cursor: pointer;
-    padding-top: 80px;
-    padding-bottom: 80px;
+.service i {
+    text-shadow: none !important;
+    color: black !important;
+    font-size: 7em !important;
 }
 
 .service p {
@@ -164,17 +161,6 @@ a.down-btn span.fa.fa-angle-down {
 
 .space {
     padding-top: 40px;
-}
-
-#cta {
-    background: url(../img/layers_4k.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding: 4% 0;
-    color: white;
-    text-shadow: 2px 2px black;
 }
 
 a.btn.go-to-btn {
@@ -198,25 +184,6 @@ a.btn.go-to-btn:hover {
     margin: 0;
 }
 
-.portfolio-item .hover-bg {
-    height: 280px;
-    overflow: hidden;
-    position: relative;
-}
-
-.hover-bg .hover-text {
-    position: absolute;
-    text-align: center;
-    margin: 0 auto;
-    color: #ffffff;
-    background: rgba(0, 0, 0, 0.66);
-    padding: 30% 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: all 0.5s;
-}
-
 .hover-bg .hover-text>h5 {
     opacity: 0;
     -webkit-transform: translateY(100%);
@@ -224,87 +191,26 @@ a.btn.go-to-btn:hover {
     transition: all 0.3s;
 }
 
-.hover-bg:hover .hover-text>h5 {
-    opacity: 1;
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-}
-
-.hover-bg .hover-text>.hline {
-    opacity: 0;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    transition: all 0.3s;
-}
-
-.hover-bg:hover .hover-text>.hline {
-    opacity: 1;
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
-}
-
-.hover-bg:hover .hover-text {
-    opacity: 1;
-}
-
-.hline {
-    height: 5px;
-    width: 30px;
-    border-top: 2px solid #f1f1f1;
-    margin: 0 auto
-}
-
-.hover-text p.lead {
-    color: #c59a6d;
-}
-
-a.btn.read-more-btn {
-    text-transform: uppercase;
-    background: #c59a6d;
-    color: #282f35;
-    word-spacing: 2px;
-    padding: 7px 30px;
-    border-radius: 2px;
-    font-size: 12px;
-    color: #ffffff;
-    transition: all 0.5s;
-}
-
-a.btn.read-more-btn:hover {
-    background: #222222;
-    color: #ffffff;
-}
-
 a.btn.send-btn {
     text-transform: uppercase;
     background: #c59a6d;
-    color: #282f35;
-    padding: 15px 35px;
+    color: black;
+    font-weight: 600;
+    width: 50%;
+    padding: 15px 40px;
     border-radius: 0;
-    font-size: 12px;
-    color: #ffffff;
+    font-size: 18px;
     transition: all 0.5s;
-}
-
-a.btn.send-btn:hover {
-    background: transparent;
-    border: 1px solid #c59a6d;
-    color: #ffffff;
+    border: 2px solid #c59a6d;
 }
 
 #clients {
-    background: url(../img/lava_4k.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: url(../img/pw_maze_black_2X.png) right top repeat;
     text-align: center;
 }
 
 #clients .overlay {
-    background: rgba(34, 34, 34, 0.85);
+    background: rgba(0, 0, 0, 0.2);
     padding: 5% 0;
     color: #ffffff;
 }
@@ -335,9 +241,10 @@ ul.clients li {
 }
 
 #contact {
-    background: url(../img/pw_maze_black_2X.png) left top repeat;
-    padding: 100px 0;
-    color: #ffffff;
+    background: url(../img/bg4.jpg);
+    background-size: cover;
+    padding: 50px 0;
+    color: white;
 }
 
 ul.social li {
@@ -361,7 +268,7 @@ address:before {
     content: "\f041";
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
-    font-size: 20px;
+    font-size: 30px;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -373,7 +280,7 @@ address:before {
 
 address {
     font-style: italic;
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
 }
@@ -385,15 +292,14 @@ address {
 #contact .form-control {
     display: block;
     width: 100%;
-    height: 40px;
+    height: 60px;
     padding: 7px 12px;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.42857143;
     color: white;
     background-color: #1e2429;
-    background-image: none;
-    border: 0;
-    border-top: 2px solid transparent;
+    background: url(../img/pw_maze_black_2X.png) right top repeat;
+    border: 2px solid #c59a6d;
     border-radius: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -410,43 +316,11 @@ address {
     box-shadow: none;
 }
 
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-    color: #222222;
-    font-family: 'Lato', sans-serif;
-    font-size: 13px;
-    letter-spacing: 1px;
-    font-style: italic;
-}
-
-input:-moz-placeholder, textarea:-moz-placeholder {
-    color: #222222;
-    font-family: 'Lato', sans-serif;
-    font-size: 13px;
-    letter-spacing: 1px;
-    font-style: italic;
-}
-
-input::-moz-placeholder, textarea::-moz-placeholder {
-    color: #222222;
-    font-family: 'Lato', sans-serif;
-    font-size: 13px;
-    letter-spacing: 1px;
-    font-style: italic;
-}
-
-input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-    color: #222222;
-    font-family: 'Lato', sans-serif;
-    font-size: 13px;
-    letter-spacing: 1px;
-    font-style: italic;
-}
-
 nav#footer {
     background: url(../img/pw_maze_black_2X.png) left top repeat;
-    padding: 40px 0;
+    padding: 40px;
     color: #ffffff;
-    border-bottom: 5px solid #c59a6d;
+    font-size: 20px;
 }
 
 #footer span.fa {
@@ -463,6 +337,11 @@ nav#footer {
     color: #c59a6d;
 }
 
+#mail {
+    color: #c59a6d;
+    font-size: 5em;
+    text-shadow: 4px 2px black;
+}
 
 
 /**/
