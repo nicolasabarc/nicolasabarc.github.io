@@ -26,7 +26,7 @@ h3 {
 
 h4 {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 18px;
     word-spacing: 2px;
 }
 
@@ -45,6 +45,8 @@ h6 {
 
 p {
     font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 50px;
 }
 
 hr {
@@ -63,7 +65,7 @@ a:hover, a:focus {
 
 i {
     color: white;
-    font-size: 10em;
+    font-size: 8em;
     text-shadow: 4px 2px black;
 }
 
@@ -77,7 +79,7 @@ i:hover {
 
 #home {
     background: url(../img/pw_maze_black_2X.png) left top repeat;
-    min-height: 500px;
+    min-height: 450px;
     padding-top: 60px;
     color: #ffffff;
 }
@@ -93,7 +95,7 @@ i:hover {
 }
 
 .content {
-    padding-top: 16%;
+    padding-top: 8%;
 }
 
 .header-text.btn {
@@ -133,11 +135,8 @@ a.down-btn span.fa.fa-angle-down {
     margin-top: 30px;
 }
 
-.service {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    transition: all 0.3s;
-    padding: 60px 25px;
+.service {   
+    transition: all 0.5s;  
 }
 
 .service:hover>h4, .service:hover>span.fa {
@@ -149,11 +148,11 @@ a.down-btn span.fa.fa-angle-down {
     text-shadow: none !important;
     color: black !important;
     font-size: 7em !important;
+    cursor: pointer;
 }
 
 .service p {
-    font-size: 14px;
-    padding-top: 20px;
+    font-size: 15px;
     font-family: 'Lato', sans-serif;
 }
 
@@ -245,22 +244,6 @@ ul.clients li {
     color: white;
 }
 
-ul.social li {
-    display: inline-block;
-    margin-right: 20px;
-    margin-top: 30px;
-}
-
-ul.social li a {
-    color: #ffffff;
-    font-size: 16px;
-}
-
-address strong {
-    text-transform: uppercase;
-    font-style: normal;
-    font-family: 'Montserrat', sans-serif;
-}
 
 address:before {
     content: "\f041";
@@ -316,7 +299,7 @@ address {
 
 nav#footer {
     background: url(../img/pw_maze_black_2X.png) left top repeat;
-    padding: 40px;
+    padding: 20px 0 0 0;
     color: #ffffff;
     font-size: 20px;
 }
@@ -333,6 +316,10 @@ nav#footer {
 
 #footer a:hover {
     color: #c59a6d;
+}
+
+#footer p{
+    margin-bottom: -5px !important;
 }
 
 #mail {
@@ -404,4 +391,12 @@ nav#footer {
     -ms-animation: blink 0.7s infinite;
     -o-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
+}
+
+.row-no-margin{
+    margin-bottom: -200px !important;
+}
+
+.fa.fa-angle-up{
+    font-size: 50px !important;   
 }
