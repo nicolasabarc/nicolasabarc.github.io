@@ -70,6 +70,7 @@ i {
     font-size: 10em;
     text-shadow: 4px 2px black;
     cursor: pointer;
+    font-weight: 100;
 }
 
 i:hover {
@@ -132,6 +133,10 @@ span.typed-cursor {
     margin-top: 200px;
 }
 
+.little-br {
+	margin-bottom:-20px !important;
+}
+
 a.down-btn span.fa.fa-angle-down {
     font-size: 26px;
     border: 1px solid #c59a6d;
@@ -143,12 +148,14 @@ a.down-btn span.fa.fa-angle-down {
     margin-top: 30px;
 }
 
-#services{
-    padding: 3% 0 0 0;
+#services {
+    padding: 2% 0 2% 0;
+    background: #e5e5e5;
 }
+
 .service {
     transition: all 0.5s;
-    font-size: 15px; 
+    font-size: 15px;
 }
 
 .service:hover>h4,
@@ -167,6 +174,12 @@ a.down-btn span.fa.fa-angle-down {
 .service p {
     font-size: 15px;
     font-family: 'Lato', sans-serif;
+}
+
+.service h4 {
+    padding: 1% 0 0 0;
+    margin-top: 1% !important;
+    font-weight: 500;
 }
 
 .space {
@@ -220,7 +233,6 @@ a.btn.send-btn {
 }
 
 #clients .overlay {
-    background: rgba(0, 0, 0, 0.2);
     padding: 6% 0;
     color: #ffffff;
 }
@@ -236,19 +248,6 @@ ul.clients li {
     display: inline-block;
     padding: 20px 30px;
     vertical-align: middle;
-}
-
-.owl-theme .owl-controls .owl-page span {
-    display: block;
-    width: 10px;
-    height: 10px;
-    margin: 2px 5px;
-    filter: Alpha(Opacity=50);
-    opacity: 0.5;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 0;
-    background: #C59A6D;
 }
 
 #contact {
@@ -333,7 +332,30 @@ nav#footer {
 }
 
 #footer p {
-    margin-bottom: -5px !important;
+    padding: 20px 0 0 0;
+    margin-left: 10px;
+    margin-bottom: 1px !important;
+}
+
+#footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+#footer li {
+    display: inline-block;
+    list-style: none;
+    padding: 15px 0 0 0;
+    margin: 5px 10px;
+}
+
+#footer i {
+    font-size: 1em !important;
+}
+
+#footer a {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 #mail {
@@ -418,18 +440,18 @@ nav#footer {
 }
 
 .fa.fa-angle-up {
+    margin-top: -10px !important;
     font-size: 50px !important;
 }
 
-.fa.fa-mobile{
+.fa.fa-mobile {
     margin-right: 10px;
 }
 
-.fa.fa-laptop{
+.fa.fa-laptop {
     font-size: 9em !important;
 }
 
-.fa.fa-desktop{
-    font-size:9em !important;
-
+.fa.fa-desktop {
+    font-size: 9em !important;
 }
