@@ -35,44 +35,47 @@
 
 <body id="page-top" class="index">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+    <header>
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li>
+                            <a class="page-scroll" href="#page-top">Inicio</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#services">Servicios</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#clients">Tecnologías</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#contact">Contacto</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-                <ul class="nav navbar-nav navbar-right">
-
-                    <li>
-                        <a class="page-scroll" href="#page-top">Inicio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Servicios</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#clients">Tecnologías</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contacto</a>
-                    </li>
-
-                </ul>
-
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
 
 
     <!-- Home Section -->
@@ -91,7 +94,7 @@
         </div>
     </div>
 
-    <div class="space"></div>
+
 
     <!-- Services Section -->
     <div id="services">
@@ -103,7 +106,6 @@
                         <h2>Servicios</h2>
                         <hr>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio alias excepturi eius sit quibusdam, sequi veniam, debitis corrupti laboriosam possimus sapiente ad iusto sint repellat tempora dicta, vel delectus recusandae.</p>
                 </div>
 
             </div>
@@ -120,7 +122,7 @@
 
                 <div class="col-md-6 col-sm-6 col-xs-6">
                     <div class="service">
-                        <i class="fa fa-refresh" aria-hidden="true"></i>
+                        <i class="fa fa-refresh fa-3x fa-fw"></i>
                         <h4>Contenido Dinámico</h4>
                     </div>
                 </div>
@@ -133,10 +135,12 @@
 
                 <div class="col-md-12">
                     <div class="service">
-                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                       <i class="fa fa-desktop hidden-xs" aria-hidden="true"></i>
                         <br>
+                        <i class="fa fa-mobile" aria-hidden="true"></i>
                         <i class="fa fa-tablet hidden-xs" aria-hidden="true"></i>
                         <i class="fa fa-laptop hidden-xs " aria-hidden="true"></i>
+
                         <h4>Estructura Responsive</h4>
                     </div>
                 </div>
@@ -147,23 +151,16 @@
 
             <div class="row">
 
-                <div class="col-md-4 col-sm-4 col-xs-6">
+                <div class="col-md-6 col-sm-6 col-xs-6">
                     <div class="service">
-                        <i class="fa fa-recycle" aria-hidden="true"></i>
+                        <i class="fa fa-bolt" aria-hidden="true"></i>
                         <h4>Eficiencia</h4>
 
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-4 col-xs-6">
-                    <div class="service">
-                        <i class="fa fa-tachometer" aria-hidden="true"></i>
-                        <h4>Rendimiento</h4>
 
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-4 hidden-xs">
+                <div class="col-md-6 col-sm-6 col-xs-6">
                     <div class="service">
                         <i class="fa fa-wrench" aria-hidden="true"></i>
                         <h4>Mantenibilidad</h4>
@@ -266,23 +263,24 @@
                     <hr>
                 </div>
 
-                <div class="row">
+                <div id="tech" class="row">
                     <ul class="clients">
                         <li>
-                            <a href="https://goo.gl/fZNbT2" target="blank"><i class="devicon-html5-plain-wordmark"></i></a>
+                            <a><i class="devicon-html5-plain-wordmark"></i></a>
                         </li>
                         <li>
-                            <a href="https://goo.gl/hI5hcu" target="blank"><i class="devicon-css3-plain-wordmark"></i></a>
+                            <a><i class="devicon-css3-plain-wordmark"></i></a>
                         </li>
                         <li>
-                            <a href="https://goo.gl/FpHTt3" target="blank"><i class="devicon-javascript-plain"></i></a>
+                            <a><i class="devicon-javascript-plain"></i></a>
                         </li>
                         <br>
+                        <div class="space"></div>
                         <li>
-                            <a href="http://getbootstrap.com/" target="blank"><i class="devicon-bootstrap-plain-wordmark"></i></a>
+                            <a><i class="devicon-bootstrap-plain-wordmark"></i></a>
                         </li>
                         <li>
-                            <a href="https://github.com/nicolasabarc" target="blank"><i class="devicon-git-plain-wordmark"></i></a>
+                            <a><i class="devicon-git-plain-wordmark"></i></a>
                         </li>
                         <li>
                             <a><i class="devicon-jquery-plain-wordmark" target="blank"></i></a>
@@ -366,16 +364,6 @@
     <script type="text/javascript" src="resources/js/typed.js"></script>
     <script type="text/javascript" src="resources/js/classie.js"></script>
 
-    <script>
-        $(function () {
-            $("#head-title").typed({
-                strings: ["Nicolás Abarca ^1000", " < Diseño Web /> ^750", "{ Programacíon } ^750", "Contáctame !^1500"],
-                typeSpeed: 50,
-                loop: true,
-                startDelay: 25
-            });
-        });
-    </script>
 
     <!-- Main File
     ================================================== -->

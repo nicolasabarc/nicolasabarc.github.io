@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale;
     overflow-y: auto;
@@ -58,15 +59,17 @@ a {
     color: #222222
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
     color: #c59a6d;
     text-decoration: none;
 }
 
 i {
     color: white;
-    font-size: 8em;
+    font-size: 10em;
     text-shadow: 4px 2px black;
+    cursor: pointer;
 }
 
 i:hover {
@@ -79,7 +82,7 @@ i:hover {
 
 #home {
     background: url(../img/pw_maze_black_2X.png) left top repeat;
-    min-height: 450px;
+    min-height: 550px;
     padding-top: 60px;
     color: #ffffff;
 }
@@ -109,7 +112,12 @@ i:hover {
     color: inherit;
 }
 
-.header-text.btn:focus, .header-text.btn:active:focus, .header-text.btn.active:focus, .header-text.btn.focus, .header-text.btn:active.focus, .header-text.btn.active.focus {
+.header-text.btn:focus,
+.header-text.btn:active:focus,
+.header-text.btn.active:focus,
+.header-text.btn.focus,
+.header-text.btn:active.focus,
+.header-text.btn.active.focus {
     outline: thin dotted transparent;
     outline: none;
     outline-offset: -2px;
@@ -135,11 +143,16 @@ a.down-btn span.fa.fa-angle-down {
     margin-top: 30px;
 }
 
-.service {   
-    transition: all 0.5s;  
+#services{
+    padding: 3% 0 0 0;
+}
+.service {
+    transition: all 0.5s;
+    font-size: 15px; 
 }
 
-.service:hover>h4, .service:hover>span.fa {
+.service:hover>h4,
+.service:hover>span.fa {
     color: #c59a6d;
     cursor: pointer;
 }
@@ -208,11 +221,12 @@ a.btn.send-btn {
 
 #clients .overlay {
     background: rgba(0, 0, 0, 0.2);
-    padding: 5% 0;
+    padding: 6% 0;
     color: #ffffff;
 }
 
-ul, ol {
+ul,
+ol {
     padding: 0;
     moz-padding: 0;
     webkit-padding: 0;
@@ -240,10 +254,9 @@ ul.clients li {
 #contact {
     background: url(../img/bg4.jpg);
     background-size: cover;
-    padding: 50px 0;
+    padding: 4% 0;
     color: white;
 }
-
 
 address:before {
     content: "\f041";
@@ -266,7 +279,8 @@ address {
     letter-spacing: 1px;
 }
 
-#contact input.form-control, #contact textarea.form-control {
+#contact input.form-control,
+#contact textarea.form-control {
     margin-bottom: 30px;
 }
 
@@ -318,7 +332,7 @@ nav#footer {
     color: #c59a6d;
 }
 
-#footer p{
+#footer p {
     margin-bottom: -5px !important;
 }
 
@@ -340,7 +354,10 @@ nav#footer {
     color: #c59a6d;
 }
 
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
     color: white;
 }
 
@@ -352,7 +369,8 @@ nav#footer {
     background-color: #fff;
 }
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
     background-color: transparent;
 }
 
@@ -364,7 +382,8 @@ nav#footer {
     color: #fff;
 }
 
-.navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
     outline: 0;
     color: white;
 }
@@ -376,7 +395,8 @@ nav#footer {
     border: 1px solid #c59a6d;
 }
 
-.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
     color: white;
     background-color: transparent;
     border: 1px solid #c59a6d;
@@ -393,10 +413,23 @@ nav#footer {
     animation: blink 0.7s infinite;
 }
 
-.row-no-margin{
+.row-no-margin {
     margin-bottom: -200px !important;
 }
 
-.fa.fa-angle-up{
-    font-size: 50px !important;   
+.fa.fa-angle-up {
+    font-size: 50px !important;
+}
+
+.fa.fa-mobile{
+    margin-right: 10px;
+}
+
+.fa.fa-laptop{
+    font-size: 9em !important;
+}
+
+.fa.fa-desktop{
+    font-size:9em !important;
+
 }
