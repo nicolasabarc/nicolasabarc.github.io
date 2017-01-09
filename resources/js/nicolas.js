@@ -21,19 +21,10 @@ $('.navbar-collapse ul li a').click(function () {
 
 $(function () {
 
-    $("#head-title").typed({
-        strings: ["Nicolás Abarca ^1200", " < Diseño Web /> ^950", "{ Programacíon } ^950", "Contáctame ! ^5000"],
-        typeSpeed: 50,
-        loop: true,
-        startDelay: 15
-    });
-
     $(".fa.fa-refresh").hover(function () {
 
-        $(this).addClass('fa-spin');
+        $(this).toggleClass('fa-spin');
 
     });
-
-
 
 });

@@ -230,3 +230,13 @@
         font-size: 15px !important;
     }
 }
+@media(max-width:768px) {
+    .service {
+        padding: 10px !important;
+    }
+    
+    .fa-mobile {
+        margin-top: 50px !important;
+        font-size: 6em !important;
+    }
+}
