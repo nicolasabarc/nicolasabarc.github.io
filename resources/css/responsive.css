@@ -132,7 +132,7 @@
         padding: 15% 0;
     }
     #home {
-        min-height: 350px;
+        min-height: 300px;
     }
     #mail {
         font-size: 2em !important;
@@ -154,7 +154,7 @@
         padding: 15% 0;
     }
     #home {
-        min-height: 350px;
+        min-height: 300px;
     }
     #mail {
         font-size: 2em !important;
@@ -255,7 +255,7 @@
         font-size: 15px !important;
     }
     #home {
-        min-height: 350px !important;
+        min-height: 300px !important;
     }
     .content {
         padding-top: 5% !important;

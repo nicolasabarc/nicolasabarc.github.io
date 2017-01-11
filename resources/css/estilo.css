@@ -1,4 +1,7 @@
-body, html {
+/*** GENERAL ***/
+
+body,
+html {
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale;
     overflow-y: auto;
@@ -58,7 +61,8 @@ a {
     color: #222222
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
     color: #c59a6d;
     text-decoration: none;
 }
@@ -79,10 +83,16 @@ i:hover {
     font-size: 9em;
 }
 
+
+/*** END ***/
+
+
+/*** HOME SECTION ***/
+
 #home {
     background: url(../img/pw_maze_black_2X.png) left top repeat;
-    min-height: 550px;
-    padding-top: 60px;
+    min-height: 450px;
+    padding-top: 40px;
     color: #ffffff;
 }
 
@@ -100,6 +110,12 @@ i:hover {
     padding-top: 8%;
 }
 
+
+/*** END ***/
+
+
+/*** HEADER ***/
+
 .header-text.btn {
     border: 1px solid #ffffff;
     border-radius: 0;
@@ -111,7 +127,12 @@ i:hover {
     color: inherit;
 }
 
-.header-text.btn:focus, .header-text.btn:active:focus, .header-text.btn.active:focus, .header-text.btn.focus, .header-text.btn:active.focus, .header-text.btn.active.focus {
+.header-text.btn:focus,
+.header-text.btn:active:focus,
+.header-text.btn.active:focus,
+.header-text.btn.focus,
+.header-text.btn:active.focus,
+.header-text.btn.active.focus {
     outline: thin dotted transparent;
     outline: none;
     outline-offset: -2px;
@@ -126,7 +147,10 @@ i:hover {
     color: #c59a6d;
 }
 
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
     color: white;
 }
 
@@ -138,7 +162,8 @@ i:hover {
     background-color: #fff;
 }
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
     background-color: transparent;
 }
 
@@ -150,7 +175,8 @@ i:hover {
     color: #fff;
 }
 
-.navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
     outline: 0;
     color: white;
 }
@@ -162,25 +188,21 @@ i:hover {
     border: 1px solid #c59a6d;
 }
 
-.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
     color: white;
     background-color: transparent;
     border: 1px solid #c59a6d;
 }
 
-.add-margin {
-    margin-top: 200px;
-}
 
-.little-br {
-    margin-bottom: -20px !important;
-}
+/*** END ***/
 
 
 /*** SERVICES SECTION ***/
 
 #services {
-    padding: 2% 0 2% 0;
+    padding: 1% 0 1% 0;
     background: #e5e5e5;
 }
 
@@ -189,7 +211,8 @@ i:hover {
     font-size: 15px;
 }
 
-.service:hover>h4, .service:hover>span.fa {
+.service:hover>h4,
+.service:hover>span.fa {
     color: #c59a6d;
     cursor: pointer;
 }
@@ -201,10 +224,6 @@ i:hover {
     cursor: pointer;
 }
 
-.service p {
-    font-size: 15px;
-    font-family: 'Lato', sans-serif;
-}
 
 .service h4 {
     padding: 1% 0 0 0;
@@ -238,7 +257,7 @@ i:hover {
 }
 
 #clients .overlay {
-    padding: 6% 0;
+    padding: 4% 0;
     color: #ffffff;
 }
 
@@ -265,7 +284,8 @@ i:hover {
     transition: all 300ms;
 }
 
-ul, ol {
+ul,
+ol {
     padding: 0;
     moz-padding: 0;
     webkit-padding: 0;
@@ -286,7 +306,7 @@ ul.clients li {
 #contact {
     background: url(../img/bg4.jpg);
     background-size: cover;
-    padding: 4% 0;
+    padding: 3% 0;
     color: white;
 }
 
@@ -311,7 +331,8 @@ address {
     letter-spacing: 1px;
 }
 
-#contact input.form-control, #contact textarea.form-control {
+#contact input.form-control,
+#contact textarea.form-control {
     margin-bottom: 30px;
 }
 
@@ -402,6 +423,10 @@ nav#footer {
     text-shadow: 4px 2px black;
 }
 
+.fa-angle-up {
+    margin-top: -10px !important;
+    font-size: 50px !important;
+}
 
 /*** END ***/
 
@@ -434,7 +459,10 @@ span.typed-cursor {
     margin-bottom: -200px !important;
 }
 
-.fa-angle-up {
-    margin-top: -10px !important;
-    font-size: 50px !important;
+.add-margin {
+    margin-top: 200px;
+}
+
+.little-br {
+    margin-bottom: -20px !important;
 }
