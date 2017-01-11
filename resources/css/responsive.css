@@ -67,6 +67,7 @@
     i {
         font-size: 2em !important;
     }
+
 }
 
 
@@ -156,6 +157,7 @@
     .overlay i{
       font-size: 6em !important;
     }
+
 }
 
 
@@ -179,12 +181,13 @@
     }
     .fa-mobile {
         margin-top: 50px !important;
-        font-size: 6em !important;
     }
 
     #mail {
         font-size: 2em !important;
     }
+
+
 }
 
 @media(min-width:768px) {
@@ -216,6 +219,7 @@
     .little-br {
         margin-bottom: -15px !important;
     }
+
 
 
 }
@@ -255,6 +259,10 @@
     h4 {
         font-size: 16px !important;
     }
+
+    #xupalo{
+      margin-right: 1000000px;
+    }
     .service i {
         font-size: 3em !important;
     }
@@ -278,6 +286,11 @@
       margin: 0;
       padding: 0;
     }
+    #mail {
+        font-size: 1.5em !important;
+    }
+
+
 
 }
 
@@ -296,4 +309,5 @@
         margin-bottom: -30px !important;
         font-size: 6em !important;
     }
+
 }
