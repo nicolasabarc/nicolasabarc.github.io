@@ -352,7 +352,7 @@ address {
 
 /*** SECTION FOOTER ***/
 
-nav #footer {
+nav#footer {
     background: url(../img/pw_maze_black_2X.png) left top repeat;
     padding: 20px 0 0 0;
     color: #ffffff;
