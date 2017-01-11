@@ -67,7 +67,12 @@
     i {
         font-size: 2em !important;
     }
+}
 
+@media(max-width:349px) {
+    .clients i {
+        font-size: 2em !important;
+    }
 }
 
 
@@ -98,7 +103,9 @@
     #mail {
         font-size: 1.6em !important;
     }
-
+    .clients li {
+        padding: 20px !important;
+    }
 }
 
 @media(max-width:550px) {
@@ -127,12 +134,11 @@
     #home {
         min-height: 350px;
     }
-
     #mail {
         font-size: 2em !important;
     }
-    .overlay i{
-      font-size: 6em !important;
+    .overlay i {
+        font-size: 6em !important;
     }
 }
 
@@ -150,30 +156,16 @@
     #home {
         min-height: 350px;
     }
-
     #mail {
         font-size: 2em !important;
     }
-    .overlay i{
-      font-size: 6em !important;
+    .overlay i {
+        font-size: 6em !important;
     }
-
 }
 
 
 /* */
-
-@media(max-width:730px) {
-    label {
-        font-size: 2em !important;
-    }
-}
-
-@media(max-width:700px) {
-    label {
-        font-size: 2em !important;
-    }
-}
 
 @media(max-width:768px) {
     .service {
@@ -182,12 +174,9 @@
     .fa-mobile {
         margin-top: 50px !important;
     }
-
     #mail {
         font-size: 2em !important;
     }
-
-
 }
 
 @media(min-width:768px) {
@@ -219,9 +208,6 @@
     .little-br {
         margin-bottom: -15px !important;
     }
-
-
-
 }
 
 @media(max-width:767px) {
@@ -259,10 +245,6 @@
     h4 {
         font-size: 16px !important;
     }
-
-    #xupalo{
-      margin-right: 1000000px;
-    }
     .service i {
         font-size: 3em !important;
     }
@@ -278,20 +260,16 @@
     .content {
         padding-top: 5% !important;
     }
-    .overlay i{
-      font-size: 8em !important;
+    .overlay i {
+        font-size: 8em !important;
     }
-
-    .overlay .space{
-      margin: 0;
-      padding: 0;
+    .overlay .space {
+        margin: 0;
+        padding: 0;
     }
     #mail {
         font-size: 1.5em !important;
     }
-
-
-
 }
 
 
@@ -299,7 +277,6 @@
 
 /***/
 @media(max-width:990px) {
-
     i {
         font-size: 6em !important;
     }
@@ -309,5 +286,4 @@
         margin-bottom: -30px !important;
         font-size: 6em !important;
     }
-
 }

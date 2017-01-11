@@ -20,9 +20,6 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-
-
-
 ! function($) {
 
     "use strict";
@@ -256,7 +253,7 @@
                 // else{
                 //  self.stopNum = 0;
                 // }
-            
+
                 // ----- continue important stuff ----- //
                 // replace text with base text + typed characters
                 var nextString = curString.substr(0, curStrPos);
