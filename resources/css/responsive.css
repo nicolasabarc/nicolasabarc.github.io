@@ -94,25 +94,17 @@
     .content {
         padding-top: 5% !important;
     }
+    #mail {
+        font-size: 1.6em !important;
+    }
 }
 
 @media(max-width:550px) {
     label {
         font-size: 20px !important;
     }
-}
-
-@media(max-width:990px) {
-    label {
-        font-size: 4em !important;
-    }
-    i {
-        font-size: 7em !important;
-    }
-    .fa.fa-desktop {
-        margin-left: 10px !important;
-        margin-bottom: -30px !important;
-        font-size: 6em !important;
+    #mail {
+        font-size: 2em !important;
     }
 }
 
@@ -244,4 +236,21 @@
 }
 
 
+}
+
+/***/
+@media(max-width:990px) {
+    label {
+        font-size: 4em !important;
+    }
+
+    i {
+        font-size: 6em !important;
+    }
+
+    .fa.fa-desktop {
+        margin-left: 10px !important;
+        margin-bottom: -30px !important;
+        font-size: 6em !important;
+    }
 }

@@ -157,7 +157,7 @@ span.typed-cursor {
 .service i {
     text-shadow: none !important;
     color: black !important;
-    font-size: 7em !important;
+    font-size: 6em !important;
     cursor: pointer;
 }
 
