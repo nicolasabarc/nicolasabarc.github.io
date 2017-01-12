@@ -6,13 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Nicolas Abarca </title>
-    <meta name="description" content="Portfolio">
-    <meta name="keywords" content="portfolio,personal,cv,frontend,backend,webdesign">
     <meta name="author" content="Nicolas Abarca">
-
-    <!-- Favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.css">
@@ -29,26 +23,6 @@
     ================================================== -->
     <link rel="stylesheet" type="text/css" href="vendor/fonts/google/lato.css">
     <link rel="stylesheet" type="text/css" href="vendor/fonts/google/montserrat.css">
-
-
-    <!-- Recording API -->
-
-    <script type="text/javascript">
-        window.smartlook || (function(d) {
-            var o = smartlook = function() {
-                    o.api.push(arguments)
-                },
-                h = d.getElementsByTagName('head')[0];
-            var c = d.createElement('script');
-            o.api = new Array();
-            c.async = true;
-            c.type = 'text/javascript';
-            c.charset = 'utf-8';
-            c.src = '//rec.smartlook.com/recorder.js';
-            h.appendChild(c);
-        })(document);
-        smartlook('init', '2b6562dd3ff3b37919ca7f0f0d8bed2c04e15303');
-    </script>
 
 </head>
 
@@ -263,10 +237,11 @@
             <div class="row text-center">
 
                 <div class="col-md-12">
-                    <address class="">
-                    <h4>Locación</h4><br>
-                    <br> Ñuñoa, Santiago - Chile
-                  </address>
+
+                    <address>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <h4> Ñuñoa, Santiago - Chile </h4>
+                    </address>
 
                 </div>
 
@@ -293,15 +268,24 @@
             </div>
 
             <div class="col-md-4">
-                <ul>
+                <ul class="lenguages">
                     <li><a style="color:#c59a6d">ES</a></li>
                     <li><a>EN</a></li>
                 </ul>
+
+                <div class="hidden-lg hidden-md">
+                    <a href="#home" class="page-scroll">
+                        <span class="fa fa-angle-up"></span>
+                    </a>
+                </div>
+
+                <div class="minus-margin hidden-xs" style="margin:40px 0"></div>
+
             </div>
 
             <br>
 
-            <a href="#home" class="page-scroll"><span class="fa fa-angle-up"></span></a>
+
 
         </div>
 

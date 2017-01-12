@@ -60,10 +60,10 @@ function escribeHeader() {
     var $headtitle = $("#head-title");
 
     $headtitle.typed({
-        strings: ["Nicolás Abarca ^2500", " < Diseño-Web />  ^2000" ],
-        typeSpeed: 50,
+        strings: ["Nicolás Abarca ^2500", " < Diseño Web />  ^2000" ],
+        typeSpeed: 30,
         loop: true,
-        startDelay: 0
+        startDelay: 10
     });
 
 }
