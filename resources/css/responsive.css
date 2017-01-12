@@ -58,7 +58,6 @@
     .typed-cursor {
         font-size: .5 em !important;
         display: inline-block;
-
     }
 }
 
@@ -113,12 +112,15 @@
     }
 }
 
-@media(max-width:550px) {
+@media(max-width:530px) {
     label {
         font-size: 20px !important;
     }
     #mail {
         font-size: 2em !important;
+    }
+    h1 {
+        font-size: 1.5em !important;
     }
 }
 
