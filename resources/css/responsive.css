@@ -2,7 +2,7 @@
 
 @media only screen and (max-width: 320px) {
     h1 {
-        font-size: 30px;
+        font-size: 10px !important;
     }
     h2 {
         font-size: 25px;
@@ -43,7 +43,7 @@
 
 @media only screen and (max-width: 360px) {
     h1 {
-        font-size: 36px;
+        font-size: 25px;
     }
     h3 {
         font-size: 11px;
@@ -54,6 +54,11 @@
     .pull-left, .pull-right {
         float: none !important;
         text-align: center;
+    }
+    .typed-cursor {
+        font-size: .5 em !important;
+        display: inline-block;
+
     }
 }
 
@@ -238,9 +243,6 @@
     }
     i {
         font-size: 5em !important;
-    }
-    h1 {
-        font-size: 30px !important;
     }
     h4 {
         font-size: 16px !important;

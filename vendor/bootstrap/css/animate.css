@@ -93,7 +93,7 @@
     40% {
         transform: translate(-1px, 1px) rotate(0.5deg);
         opacity: 0.4;
-    
+
     }
     50% {
         transform: translate(-1px, -1px) rotate(2.5deg);
@@ -130,4 +130,13 @@
     animation-duration: 0.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+}
+
+
+
+/*****/
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 0 100%; }
 }

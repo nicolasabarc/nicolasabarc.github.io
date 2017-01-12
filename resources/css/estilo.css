@@ -89,9 +89,11 @@ i:hover {
 
 #home {
     background: url(../img/pw_maze_black_2X.png) left top repeat;
+    background-position: 0px 0px;
     min-height: 450px;
     padding-top: 40px;
     color: #ffffff;
+    animation: animatedBackground 40s linear infinite;
 }
 
 #home a.down-btn span.fa.fa-angle-down {
@@ -133,6 +135,8 @@ i:hover {
 
 .navbar-default {
     background: url(../img/pw_maze_black_2X.png) left top repeat;
+    background-position: 0px 0px;
+    animation: animatedBackground 40s linear infinite;
 }
 
 .navbar-default .navbar-brand {
@@ -234,6 +238,8 @@ i:hover {
 
 #clients {
     background: url(../img/pw_maze_black_2X.png) right top repeat;
+    background-position: 0px 0px;
+    animation: animatedBackground 40s linear infinite;
     text-align: center;
 }
 
@@ -328,7 +334,8 @@ address {
     line-height: 1.42857143;
     color: white;
     background-color: #1e2429;
-    background: url(../img/pw_maze_black_2X.png) right top repeat;
+    background-position: 0px 0px;
+    animation: animatedBackground 40s linear infinite;
     border: 2px solid #c59a6d;
     border-radius: 0;
     -webkit-box-shadow: none;
@@ -418,7 +425,7 @@ nav#footer {
 /* TYPED.JS */
 
 span.typed-cursor {
-    top: -5px;
+    top: -3px;
     position: relative;
 }
 
