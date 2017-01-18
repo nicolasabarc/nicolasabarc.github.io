@@ -124,19 +124,3 @@
         color:white;
     }
 }
-
-.shake-opacity:hover, .shake-trigger:hover .shake-opacity, .shake-opacity.shake-freeze, .shake-opacity.shake-constant {
-    animation-name: shake-opacity;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-}
-
-
-
-/*****/
-
-@keyframes animatedBackground {
-	from { background-position: 0 0; }
-	to { background-position: 0 100%; }
-}

@@ -127,6 +127,9 @@
     h1 {
         font-size: 1.5em !important;
     }
+    .header-text {
+        height: 70px !important;
+    }
 }
 
 
