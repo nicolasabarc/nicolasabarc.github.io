@@ -7,9 +7,6 @@
     h2 {
         font-size: 25px;
     }
-    hover-bg .hover-text {
-        padding: 30% 0px;
-    }
     i {
         font-size: 5em !important;
     }
@@ -57,7 +54,7 @@
         text-align: center;
     }
     .typed-cursor {
-        font-size: .5 em !important;
+        font-size: 0.5 em !important;
         display: inline-block;
     }
 }
@@ -67,7 +64,8 @@
         font-size: 1.4em !important;
     }
     #home {
-        min-height: 250px;
+        min-height: 250px !important;
+        padding: 4% 0 !important;
     }
     i {
         font-size: 2em !important;
@@ -117,6 +115,13 @@
     }
 }
 
+@media(min-width:460px) and (max-width:525px) {
+    .header-text {
+        padding: 0px 10px !important;
+        height: 60px !important;
+    }
+}
+
 @media(max-width:530px) {
     label {
         font-size: 20px !important;
@@ -128,7 +133,11 @@
         font-size: 1.5em !important;
     }
     .header-text {
-        height: 70px !important;
+        height: 65px !important;
+    }
+    .typed-cursor {
+        top: -1px !important;
+        font-size: 20px !important;
     }
 }
 
@@ -282,12 +291,6 @@
 /***/
 @media(max-width:990px) {
     i {
-        font-size: 6em !important;
-    }
-
-    .fa.fa-desktop {
-        margin-left: 10px !important;
-        margin-bottom: -30px !important;
         font-size: 6em !important;
     }
 }

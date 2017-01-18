@@ -26,7 +26,7 @@ function escalaElemento() {
 
     $iconos.hover(function agranda() {
 
-        $(this).css('transform', 'scale(1.6)');
+        $(this).css('transform', 'scale(1.5)');
 
     }, function normaliza() {
 
@@ -60,10 +60,11 @@ function escribeHeader() {
     var $headtitle = $("#head-title");
 
     $headtitle.typed({
-        strings: ["Nicolás Abarca ^2500", " < Diseño Web />  ^2000" ],
-        typeSpeed: 30,
+        strings: ["Nicolás Abarca ^2500", " < Diseño Web />  ^2000"],
+        typeSpeed: 15,
+        backSpeed:5,
         loop: true,
-        startDelay: 10
+        startDelay: 0
     });
 
 }

@@ -90,8 +90,8 @@ i:hover {
 #home {
     background: url(../img/pw_maze_black_2X.png) left top repeat;
     background-position: 0px 0px;
-    min-height: 450px;
-    padding-top: 40px;
+    min-height: 550px;
+    padding-top: 60px;
     color: #ffffff;
     background-attachment: fixed;
 }
@@ -193,7 +193,7 @@ i:hover {
 /*** SERVICES SECTION ***/
 
 #services {
-    padding: 1% 0 1% 0;
+    padding: 8% 0;
     background: #e5e5e5;
 }
 
@@ -210,7 +210,7 @@ i:hover {
 .service i {
     text-shadow: none !important;
     color: black !important;
-    font-size: 6em !important;
+    font-size: 5.5em !important;
     cursor: pointer;
 }
 
@@ -222,35 +222,24 @@ i:hover {
     transition: all 300ms;
 }
 
-.service h4:hover {
-    font-weight: 600;
-}
-
 .space {
     padding-top: 40px;
 }
 
+.fa {
+    transition: all 300ms;
+}
+
 .fa-mobile {
     margin-right: 30px;
-    transition: all 300ms;
 }
 
-.fa.fa-laptop {
+.fa-laptop {
     margin-left: 30px;
-    font-size: 9em !important;
-    transition: all 300ms;
 }
 
-.fa-desktop {
-    margin-right: 20px;
-    font-size: 9em !important;
-    transition: all 300ms;
-    margin-bottom: 30px !important;
-}
-
-.fa.fa-tablet {
+.fa-tablet {
     margin-left: 10px;
-    transition: all 300ms;
 }
 
 
@@ -270,7 +259,7 @@ i:hover {
 }
 
 #clients .overlay {
-    padding: 3% 0;
+    padding: 8% 0;
     color: #ffffff;
 }
 
@@ -296,7 +285,7 @@ ul.clients li {
     background: url(../img/bg4.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 3% 0;
+    padding: 6% 0;
     color: white;
 }
 
