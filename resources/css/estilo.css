@@ -135,8 +135,7 @@ i:hover {
 
 .navbar-default {
     background: url(../img/pw_maze_black_2X.png) left top repeat;
-    background-attachment: fixed;
-    background-position: 0px 0px;
+      background-position: 0px 0px;
 }
 
 .navbar-default .navbar-brand {
@@ -177,13 +176,13 @@ i:hover {
     border-radius: 0;
     color: white;
     background-color: transparent;
-    border: 1px solid #c59a6d;
+    border: 1.5px solid #c59a6d;
 }
 
 .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     color: white;
     background-color: transparent;
-    border: 1px solid #c59a6d;
+    border: 1.5px solid #c59a6d;
 }
 
 
@@ -285,8 +284,9 @@ ul.clients li {
     background: url(../img/bg4.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 6% 0;
+    padding: 10% 0;
     color: white;
+
 }
 
 address h4 {

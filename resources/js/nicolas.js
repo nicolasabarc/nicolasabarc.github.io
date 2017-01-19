@@ -58,11 +58,19 @@ function desplazamientoMenu() {
 function escribeHeader() {
 
     var $headtitle = $("#head-title");
+    var $contactmail = $("#contactmail");
 
     $headtitle.typed({
         strings: ["Nicolás Abarca ^2500", " < Diseño Web />  ^2000"],
         typeSpeed: 15,
-        backSpeed:5,
+        backSpeed: 5,
+        loop: true,
+        startDelay: 0
+    });
+
+    $contactmail.typed({
+        strings: [" nicolasabarc @ gmail . com  ^3500"],
+        typeSpeed: 10,      
         loop: true,
         startDelay: 0
     });

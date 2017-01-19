@@ -113,6 +113,11 @@
     .service i {
         font-size: 0.2em !important;
     }
+    #contact{
+background-size: cover;
+      background-attachment: inherit;
+
+    }
 }
 
 @media(min-width:460px) and (max-width:525px) {
