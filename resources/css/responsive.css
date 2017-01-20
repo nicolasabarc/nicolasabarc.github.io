@@ -113,10 +113,6 @@
     .service i {
         font-size: 0.2em !important;
     }
-    #contact {
-        background-size: cover;
-        background-attachment: inherit;
-    }
 }
 
 @media(min-width:460px) and (max-width:525px) {
@@ -265,11 +261,11 @@
     }
 
     #services{
-      padding: 15% 0 10% 0 !important;
+      padding: 15% 0 5% 0 !important;
     }
 
     #clients {
-      padding: 13% 0 10% 0 !important;
+      padding: 8% 0 10% 0 !important;
     }
 
     .overlay i {

@@ -61,8 +61,8 @@ function escribeHeader() {
     var $contactmail = $("#contactmail");
 
     $headtitle.typed({
-        strings: ["Nicolás Abarca ^2500", " < Diseño Web />  ^2000"],
-        typeSpeed: 15,
+        strings: ["Nicolás Abarca ^3500", " < Front End />  ^3000" , " { Back End }; ^3000"],
+        typeSpeed: 10,
         backSpeed: 5,
         loop: true,
         startDelay: 0
@@ -91,17 +91,16 @@ function revealOnScroll() {
 
     sr.reveal('.techIcon', {
         reset: true,
-        delay: 100,
-        distance: '200px',
-        easing: 'ease-in',
+        easing: 'cubic-bezier(.9,.65,.12,1)',
+        mobile: false,
         scale: 1.2,
-        mobile: false
+        delay: 100
     });
 
     sr.reveal('#mail', {
-        reset: false,
+        reset: true,
         distance: '200px',
-        easing: 'ease-out',
+        easing: 'cubic-bezier(.9,.65,.12,1)',
         scale: 1.2,
         mobile: false
     });
@@ -120,7 +119,7 @@ function _render() {
 
 /*******-----> <------*******/
 
-$(function() {
+$(document).ready(function() {
 
     _render();
 
