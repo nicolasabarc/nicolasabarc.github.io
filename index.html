@@ -15,7 +15,6 @@
 
     <!-- Stylesheet
     ================================================== -->
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
     <link rel="stylesheet" type="text/css" href="resources/css/estilo.css">
     <link rel="stylesheet" type="text/css" href="resources/css/responsive.css">
 
@@ -23,6 +22,20 @@
     ================================================== -->
     <link rel="stylesheet" type="text/css" href="vendor/fonts/google/lato.css">
     <link rel="stylesheet" type="text/css" href="vendor/fonts/google/montserrat.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+
+    <!-- Reveal on Scroll
+    ================================================== -->
+    <script type="text/javascript" src="vendor/extras/js/scrollreveal.js"></script>
+    <script>
+        window.sr = ScrollReveal();
+
+        // Add class to <html> if ScrollReveal is supported
+        if (sr.isSupported()) {
+            document.documentElement.classList.add('sr');
+        }
+    </script>
+
 
 </head>
 
@@ -176,28 +189,28 @@
                 <div id="tech" class="row">
                     <ul class="clients">
                         <li>
-                            <a><i class="devicon-html5-plain-wordmark"></i></a>
+                            <a class="techIcon"><i class="devicon-html5-plain-wordmark"></i></a>
                         </li>
                         <li>
-                            <a><i class="devicon-css3-plain-wordmark"></i></a>
+                            <a class="techIcon"><i class="devicon-css3-plain-wordmark"></i></a>
                         </li>
                         <li>
-                            <a><i class="devicon-javascript-plain"></i></a>
+                            <a class="techIcon"><i class="devicon-javascript-plain"></i></a>
                         </li>
                         <br>
                         <div class="space"></div>
                         <li>
-                            <a><i class="devicon-bootstrap-plain-wordmark"></i></a>
+                            <a class="techIcon"><i class="devicon-bootstrap-plain-wordmark"></i></a>
                         </li>
                         <li>
-                            <a><i class="devicon-git-plain-wordmark"></i></a>
+                            <a class="techIcon"><i class="devicon-git-plain-wordmark"></i></a>
                         </li>
                         <li>
-                            <a><i class="devicon-jquery-plain-wordmark" target="blank"></i></a>
+                            <a class="techIcon"><i class="devicon-jquery-plain-wordmark"></i></a>
                         </li>
 
                         <li>
-                            <a><i class="devicon-mysql-plain-wordmark" target="blank"></i></a>
+                            <a class="techIcon"><i class="devicon-mysql-plain-wordmark" target="blank"></i></a>
                         </li>
 
                     </ul>
@@ -252,22 +265,21 @@
 
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins)
+    <!-- jQuery
     ================================================== -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="vendor/jquery/jquery.js"></script>
     <script type="text/javascript" src="vendor/jquery/easing.js"></script>
 
-    <!-- Include all compiled plugins (below), or include individual files as needed
+    <!-- Extras
     ================================================== -->
     <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.js"></script>
     <script type="text/javascript" src="vendor/extras/js/cbpAnimatedHeader.js"></script>
     <script type="text/javascript" src="vendor/extras/js/modernizr-custom.js"></script>
+    <script type="text/javascript" src="vendor/extras/js/typed.js"></script>
+    <script type="text/javascript" src="vendor/extras/js/classie.js"></script>
 
     <!-- Main File
     ================================================== -->
-    <script type="text/javascript" src="resources/js/typed.js"></script>
-    <script type="text/javascript" src="resources/js/classie.js"></script>
     <script type="text/javascript" src="resources/js/nicolas.js"></script>
 
 </body>

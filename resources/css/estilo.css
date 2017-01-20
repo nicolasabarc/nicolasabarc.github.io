@@ -135,7 +135,7 @@ i:hover {
 
 .navbar-default {
     background: url(../img/pw_maze_black_2X.png) left top repeat;
-      background-position: 0px 0px;
+    background-position: 0px 0px;
 }
 
 .navbar-default .navbar-brand {
@@ -286,7 +286,6 @@ ul.clients li {
     background-attachment: fixed;
     padding: 10% 0;
     color: white;
-
 }
 
 address h4 {
