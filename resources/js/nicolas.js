@@ -86,7 +86,7 @@ function revealOnScroll() {
         distance: '90px',
         easing: 'ease-in-out',
         scale: 1.1,
-        mobile: true
+        mobile: false
     });
 
     sr.reveal('.techIcon', {
@@ -95,7 +95,7 @@ function revealOnScroll() {
         distance: '200px',
         easing: 'ease-in',
         scale: 1.2,
-        mobile: true
+        mobile: false
     });
 
     sr.reveal('#mail', {
@@ -103,7 +103,7 @@ function revealOnScroll() {
         distance: '200px',
         easing: 'ease-out',
         scale: 1.2,
-        mobile: true
+        mobile: false
     });
 }
 
