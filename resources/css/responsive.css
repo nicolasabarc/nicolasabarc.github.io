@@ -65,7 +65,7 @@
     }
     #home {
         min-height: 250px !important;
-        padding: 4% 0 !important;
+        padding: 6% 0 !important;
     }
     i {
         font-size: 2em !important;
@@ -261,12 +261,20 @@
     }
     #home {
         min-height: 300px !important;
+        padding: 40% 0 !important;
     }
-    .content {
-        padding-top: 5% !important;
+
+    #services{
+      padding: 15% 0 10% 0 !important;
     }
+
+    #clients {
+      padding: 13% 0 10% 0 !important;
+    }
+
     .overlay i {
         font-size: 8em !important;
+        margin: 10px;
     }
     .overlay .space {
         margin: 0;
