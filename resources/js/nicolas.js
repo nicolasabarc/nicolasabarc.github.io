@@ -26,7 +26,7 @@ function escalaElemento() {
 
     $iconos.hover(function agranda() {
 
-        $(this).css('transform', 'scale(1.5)');
+        $(this).css('transform', 'scale(1.3)');
 
     }, function normaliza() {
 
@@ -61,25 +61,16 @@ function escribeHeader() {
     var $contactmail = $("#contactmail");
 
     $headtitle.typed({
-        strings: ["Nicolás Abarca ^3500", " < Front End />  ^3000" , " { Back End }; ^3000"],
+        strings: ["Nicolás Abarca ^3500", " < Front End />  ^3000", " { Back End }; ^3000"],
         typeSpeed: 10,
         backSpeed: 5,
         loop: true,
         startDelay: 0
     });
-
-    $contactmail.typed({
-        strings: [" nicolasabarc @ gmail . com  ^3500"],
-        typeSpeed: 10,
-        loop: true,
-        startDelay: 0
-    });
-
 }
 
 function revealOnScroll() {
 
-    // use rotation in reveal configuration
     sr.reveal('.service', {
         reset: true,
         delay: 200,
@@ -106,6 +97,26 @@ function revealOnScroll() {
     });
 }
 
+function colorEnHover() {
+
+    var $logos = $(".techIcon *");
+
+    $logos.css('color', 'black');
+
+    $logos.hover(function() {
+
+        $(this).css('color', '');
+        $(this).addClass('colored');
+
+    }, function() {
+
+        $(this).css('color', 'black');
+        $(this).removeClass('colored');
+
+
+    });
+}
+
 /*******-----> <------*******/
 
 function _render() {
@@ -115,6 +126,7 @@ function _render() {
     desplazamientoMenu();
     escribeHeader();
     revealOnScroll();
+    colorEnHover();
 }
 
 /*******-----> <------*******/
