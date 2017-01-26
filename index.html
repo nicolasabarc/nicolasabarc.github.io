@@ -16,8 +16,7 @@
     <link rel="stylesheet" type="text/css" href="resources/css/responsive.css">
     <!-- Fonts
     ================================================== -->
-    <link rel="stylesheet" type="text/css" href="vendor/fonts/google/lato.css">
-    <link rel="stylesheet" type="text/css" href="vendor/fonts/google/montserrat.css">
+    <link rel="stylesheet" type="text/css" href="vendor/fonts/google/fonts.css">
     <!-- External
     ================================================== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.6/SmoothScroll.min.js">
@@ -39,7 +38,7 @@
     <header>
         <!-- Navigation -->
         <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
+            <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header page-scroll">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -109,11 +108,11 @@
                     </div>
                 </div>
             </div>
-            <div class="minus-margin" style="margin-bottom:-10px"></div>
+            <div class="minus-margin" style="margin-bottom:-40px"></div>
             <div class="row text-center">
                 <div class="col-md-12">
                     <div class="service">
-                        <div class="space hidden-xs"></div>
+                        <div class="space"></div>
                         <i class="fa fa-mobile" aria-hidden="true" style="font-size:4.0em !important"></i>
                         <i class="fa fa-tablet" aria-hidden="true" style="font-size:4.3em !important"></i>
                         <i class="fa fa-laptop" aria-hidden="true" style="font-size:6em !important"></i>
@@ -162,51 +161,54 @@
                 </div>
                 <div class="space"></div>
                 <div id="tech" class="row">
-                    <ul class="clients">
-                        <li>
-                            <div class="techIcon">
-                                <i class="devicon-html5-plain-wordmark"></i>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="techIcon">
-                                <i class="devicon-css3-plain-wordmark"></i>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="techIcon">
-                                <i class="devicon-javascript-plain"></i>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="techIcon">
-                                <i class="devicon-bootstrap-plain-wordmark"></i>
-                            </div>
-                        </li>
-                        <br>
-                        <div class="space"></div>
-                        <li>
-                            <div class="techIcon"><i class="devicon-git-plain"></i>
-                            </div>
-                        </li>
-                        <li class="hidden-xs hidden-md">
-                            <div class="techIcon">
-                                <i class="devicon-oracle-original"></i>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="techIcon">
-                                <i class="devicon-jquery-plain-wordmark"></i>
-                            </div>
-                        </li>
-                    </ul>
+                    <div class="col-md-12">
+                        <ul class="clients">
+                            <li>
+                                <div class="techIcon">
+                                    <i class="devicon-html5-plain-wordmark"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="techIcon">
+                                    <i class="devicon-css3-plain-wordmark"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="techIcon">
+                                    <i class="devicon-javascript-plain"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="techIcon">
+                                    <i class="devicon-bootstrap-plain-wordmark"></i>
+                                </div>
+                            </li>
+                            <br>
+                            <div class="space hidden-sm"></div>
+                            <li>
+                                <div class="techIcon">
+                                    <i class="devicon-jquery-plain-wordmark"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="techIcon">
+                                    <i class="devicon-php-plain"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="techIcon">
+                                    <i class="devicon-mysql-plain-wordmark"></i>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Contact Section -->
     <div id="contact">
-        <div class="container">
+        <div class="container-fluid">
             <div class="section-title text-center">
                 <h2>Contacto</h2>
                 <hr>
@@ -214,24 +216,23 @@
             <div class="space"></div>
             <div class="row text-center">
                 <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <label for="" id="mail" class="contact-me"> nicolasabarc@gmail.com</label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="space"></div>
-            <div class="row text-center">
-                <div class="col-md-12">
+                    <label for="" id="mail" class="contact-me"> nicolasabarc@gmail.com</label>
+                    <div class="space"></div>
                     <address class="contact-me">
-                        <i class="fa fa-map" aria-hidden="true"></i>
+                        <i class="fa fa-location-arrow" aria-hidden="true"></i>
                         <h4> Ñuñoa, Santiago - Chile </h4>
                         <div class="space"></div>
                         <i class="fa fa-whatsapp" aria-hidden="true"></i>
                         <h4>(+569) 8505 90 68</h4>
+                        <ul class="socialList">
+                            <li><i class="fa fa-facebook-official" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-google-plus
+" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-github" aria-hidden="true"></i></li>
+                        </ul>
                     </address>
-                    <div class="">
+                    <div class="volverHome">
                         <a href="#home" class="page-scroll">
                             <span class="fa fa-angle-double-up" aria-hidden="true" style="color: #c59a6d;font-size:4em !important;"></span>
                         </a>
@@ -239,21 +240,20 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- jQuery
+        <!-- jQuery
     ================================================== -->
-    <script type="text/javascript" src="vendor/jquery/jquery.js"></script>
-    <script type="text/javascript" src="vendor/jquery/easing.js"></script>
-    <!-- Extras
+        <script type="text/javascript" src="vendor/jquery/jquery.js"></script>
+        <script type="text/javascript" src="vendor/jquery/easing.js"></script>
+        <!-- Extras
     ================================================== -->
-    <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.js"></script>
-    <script type="text/javascript" src="vendor/extras/js/cbpAnimatedHeader.js"></script>
-    <script type="text/javascript" src="vendor/extras/js/modernizr-custom.js"></script>
-    <script type="text/javascript" src="vendor/extras/js/typed.js"></script>
-    <script type="text/javascript" src="vendor/extras/js/classie.js"></script>
-    <!-- Main File
+        <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript" src="vendor/extras/js/cbpAnimatedHeader.js"></script>
+        <script type="text/javascript" src="vendor/extras/js/modernizr-custom.js"></script>
+        <script type="text/javascript" src="vendor/extras/js/typed.js"></script>
+        <script type="text/javascript" src="vendor/extras/js/classie.js"></script>
+        <!-- Main File
     ================================================== -->
-    <script type="text/javascript" src="resources/js/nicolas.js"></script>
+        <script type="text/javascript" src="resources/js/nicolas.js"></script>
 </body>
 
 </html>
