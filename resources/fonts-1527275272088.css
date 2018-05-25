@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Roboto-Regular.ttf")  format("truetype"),
+       url("") format("opentype");
+}
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url("../fonts/Roboto-Thin.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Roboto-Thin.ttf")  format("truetype"),
+       url("") format("opentype");
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Roboto-Bold.ttf")  format("truetype"),
+       url("") format("opentype");
+}
+@font-face {
+  font-family: "Lato Black";
+  src: url("") format("embedded-opentype"),
+       url("../fonts/Lato_Black-Black.ttf")  format("truetype"),
+       url("../fonts/Lato_Black-Black.otf") format("opentype");
+   font-weight : 900;
+   font-style : normal;
+}
+@font-face {
+  font-family: "Lato Light";
+  src: url("") format("embedded-opentype"),
+       url("../fonts/Lato_Light-Light.ttf")  format("truetype"),
+       url("../fonts/Lato_Light-Light.otf") format("opentype");
+   font-weight : 300;
+   font-style : normal;
+}

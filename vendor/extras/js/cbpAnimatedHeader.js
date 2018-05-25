@@ -1,1 +1,0 @@
-var cbpAnimatedHeader=function(){function e(){window.addEventListener("scroll",function(){c||(c=!0,setTimeout(f,350))},!1)}function f(){var a=g();a>=d?classie.add(b,"navbar-shrink"):classie.remove(b,"navbar-shrink"),c=!1}function g(){return window.pageYOffset||a.scrollTop}var a=document.documentElement,b=document.querySelector(".navbar-default"),c=!1,d=400;e()}();
